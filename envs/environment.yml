@@ -1,0 +1,23 @@
+name: ci-typology
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip>=22.1
+  - numpy>=1.23
+  - pandas>=2.2.2
+  - geopandas>=0.11
+  - gdal>=3.5
+  - fiona>=1.8
+  - pyproj>=3.4
+  - shapely>=2.0.4
+  - pyarrow>=14
+  - python-dotenv>=0.20
+  - python-duckdb>=1.1
+  - openai>=1.40
+  - pyyaml
+  - ruamel.yaml
+  - readchar
+  - tqdm
+  - pytest
